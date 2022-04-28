@@ -311,6 +311,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.2.vendor \
     CarrierConfigOverlay \
     librmnetctl \
     libsensorndkbridge \
