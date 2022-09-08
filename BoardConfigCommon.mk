@@ -103,6 +103,7 @@ TARGET_KERNEL_CONFIG += vendor/moto/moto8937_defconfig
 TARGET_KERNEL_RECOVERY_CONFIG += \
     vendor/moto/moto8937_defconfig \
     vendor/moto/recovery.config
+TARGET_KERNEL_LLVM_BINUTILS := false
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
