@@ -104,6 +104,9 @@ TARGET_KERNEL_RECOVERY_CONFIG += \
     vendor/moto/moto8937_defconfig \
     vendor/moto/recovery.config
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
