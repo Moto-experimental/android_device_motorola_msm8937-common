@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter ahannah cedric hannah james montana rhannah,$(TARGET_DEVICE)),)
+ifneq ($(filter addison ahannah albus ali cedric hannah james montana potter rhannah sanders,$(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

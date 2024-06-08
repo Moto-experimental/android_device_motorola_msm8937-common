@@ -36,12 +36,17 @@ typedef struct {
 } device_t;
 
 static const device_t devices[] = {
+    {"addison", "moto z play"},
     {"ahannah", "moto e5 plus"},
+    {"albus", "moto z2 play"},
+    {"ali", "moto g6"},
     {"cedric", "moto g5"},
     {"hannah", "moto e5 plus"},
     {"james", "moto e5 play"},
     {"montana", "moto g5s"},
+    {"potter", "moto g5 plus"},
     {"rhannah", "moto e5 plus"},
+    {"sanders", "moto g5s plus"},
 };
 
 static inline const char *BtmGetDefaultName()
