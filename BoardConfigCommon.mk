@@ -106,6 +106,10 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
+TARGET_KERNEL_CONFIG += vendor/moto/moto8937_defconfig
+TARGET_KERNEL_RECOVERY_CONFIG += \
+    vendor/moto/moto8937_defconfig \
+    vendor/moto/recovery.config
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
